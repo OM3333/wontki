@@ -8,7 +8,7 @@ public class Main {
         ImageAnalyze imageAnalyze = new ImageAnalyze();
         long start = System.currentTimeMillis();
         imageAnalyze.loadImage("a.png");
-        imageAnalyze.brightenImageSync(-100);
+        imageAnalyze.brightenImageAsync(-100);
         imageAnalyze.saveImage("b.png");
         long finish = System.currentTimeMillis();
         System.out.println(finish-start);
