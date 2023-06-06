@@ -12,6 +12,10 @@ public class Main {
         imageAnalyze.saveImage("b.png");
         long finish = System.currentTimeMillis();
         System.out.println(finish-start);
+
+        //async 1525
+        //sync 2413
+
         /*
         start = System.currentTimeMillis();
         imageAnalyze.loadImage("a.png");
